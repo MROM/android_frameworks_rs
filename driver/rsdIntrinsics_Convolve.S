@@ -102,7 +102,8 @@ ENTRY(rsdIntrinsicConvolve3x3_K)
         vpop            {q4-q7}
         pop             {r4-r8, r10, r11, lr}
         bx              lr
-END(TestConvolveK)
+END(rsdIntrinsicConvolve3x3_K)
+/* END(TestConvolveK) */
 
 /*
         r0 = dst
